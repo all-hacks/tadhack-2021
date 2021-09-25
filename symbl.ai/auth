@@ -1,0 +1,8 @@
+curl -k -X POST "https://api.symbl.ai/oauth2/token:generate" \
+     -H "accept: application/json" \
+     -H "Content-Type: application/json" \
+     -d $'{
+      "type" : "application",
+      "appId": "7963336971566e7164764b486d317833506f666d327234766c61747350345636",
+      "appSecret": "617561335f317036473350335f636e7662423138794e2d32396e4977677561416743593047336633323961554547506e376747316b5867576e633577794f6341"
+    }'
